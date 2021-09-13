@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 4vw;
+}
+
+.header {
+    border: 2px solid black;   
+    width: 90vw;
+    height: 20vh;
+    margin: auto;
+    margin-top: 5vh;
+    align-items: center;
+
+}
+
+h1 {
+    margin-top: 5vh;
+    text-align: center;
+    color: #018aab;
+    font-size: 32px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 9vh;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 50vw;
+
+}
+
+.right {
+    width: 50vw;
+    margin-left: 10vw;
+}
+
+.summary {
+    margin-top: 10vh;
+    text-align: justify;
+}   
+
+/* .summary, .experience, .education {
+    margin-left: 4vw;
+
+} */
+
+.experience, .personal-skills-title, .referal, .skills, .cargo-dois {
+    margin-top: 5vh;
+    
+}
+
+.summary-title, .experience-title, .personal-skills-title, .education-title, .skills-title, .referal-title {
+    color: #018aab;
+    font-style: italic;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    margin-bottom: 2vh;
+}
+
+
+.experience-subtitle, .experience-company, .personal-skills, .education, .skills, .cargo-subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.education-subtitle {
+    font-size: 17px;
+}
+
+.education ul{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-bottom: 2vh;
+}
+
+.experience-company {
+    margin-bottom: 2vh;
+}
+
+.experience-description {
+    text-align: justify;
+    
+}
+
+.contact {
+    margin-top: 10vh;
+
+}
+
+.contact-title {
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    font-style: italic;
+    color: #018aab;
+    margin-bottom: 2vh;
+}
+
+.contacts, .skills-list, .personal-skills-list {
+    list-style: none;
+}
+
+
